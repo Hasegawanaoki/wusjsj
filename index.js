@@ -1,0 +1,1 @@
+window.my = { getSystemInfo: c => { let t = { screenHeight:1920, screenWidth:1080, pixelRatio: 3, brand: 'ok' }; c.success.call(this, t); }, call: (t,c) => null, navigateTo: o => location.assign(o.url) };
